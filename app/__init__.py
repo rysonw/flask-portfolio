@@ -45,7 +45,7 @@ gravatar = Gravatar(app,
 
 userinfo = {'name': 'Ryson Wong',
     'shortIntro': 'CS Student at OSU',
-    'longIntro': 'Ryson Wong is from Ewa Beach, HI. He is currently studying Computer Science at Oregon State University. Ryson also serves as a satellite communications specialist in the Space Force.',
+    'longIntro': 'Ryson Wong is from Ewa Beach, HI. He is currently studying Computer Science at Oregon State University. Ryson also serves as a satellite communications Staff Sergeant in the Space Force.',
     'work': [{'jobTitle': 'Satellite Maintainer', 'desc': "Hooked up wires", "year": "2018 - Present", 'link':'./static/img/space.jpg'},],
     'skills': ['./static/img/skillicons/c-.png','./static/img/skillicons/css-3.png', './static/img/skillicons/html-5.png',
     './static/img/skillicons/js.png','./static/img/skillicons/python.png'],
