@@ -29,4 +29,4 @@ jobs:
           SSH_IP: ${{ secrets.SSH_IP }}
       
       - name: Deploy Site
-        run: ssh my-vps 'cd ${{ secrets.PROJECT_ROOT }} && redeploy-site.sh && chmod +x ~/flask-portfolio/redeploy-site.sh && bash redeploy-site.sh'
+        run: ssh my-vps 'chmod +x ~/redeploy-site.sh && bash redeploy-site.sh'
